@@ -7,6 +7,19 @@ L-shaped (non-convex) domain, all driven by automatic residual-based adaptivity:
 - **FE P1**: Galerkin finite elements on adaptive Delaunay meshes;
 - **FV TPFA**: two-point flux finite volumes on the same meshes.
 
+## Adaptive Animations (3FDD-RBF)
+
+Click any animation to view full-screen:
+
+### Example 1 — Constant full tensor $K = \begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}$ ($e_{L^2} = 1.07 \times 10^{-4}$)
+[![Example 1 — 3FDD-RBF adaptive decomposition](gifs/ex1_3fdd.gif)](gifs/ex1_3fdd.gif)
+
+### Example 2 — Discontinuous full tensor at $x = 1$ (contrast $20:1$, $e_{L^2} = 1.48 \times 10^{-5}$)
+[![Example 2 — 3FDD-RBF adaptive decomposition](gifs/ex2_3fdd.gif)](gifs/ex2_3fdd.gif)
+
+### Example 3 — Strong $50:1$ anisotropy ($30^\circ$) + steep peak at re-entrant corner $(1,1)$ ($e_{L^2} = 3.27 \times 10^{-4}$)
+[![Example 3 — 3FDD-RBF adaptive decomposition](gifs/ex3_3fdd.gif)](gifs/ex3_3fdd.gif)
+
 ## Contents
 
 | Path | Content |
